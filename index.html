@@ -4,86 +4,132 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Anvitha Clothing</title>
+
 <style>
+*{margin:0;padding:0;box-sizing:border-box;}
 body{
-margin:0;
 font-family:Arial,sans-serif;
 background:#111;
 color:#fff;
-text-align:center;
 }
 header{
 background:#000;
 padding:20px;
+display:flex;
+justify-content:space-between;
+align-items:center;
 }
 .logo{
-font-size:45px;
+font-size:30px;
 font-weight:bold;
 color:gold;
 }
-img{
-width:90%;
-max-width:500px;
+nav a{
+color:white;
+text-decoration:none;
+margin:10px;
+}
+.hero{
+text-align:center;
+padding:40px;
+}
+.hero img{
+width:300px;
 border-radius:10px;
-margin-top:20px;
 }
 .price{
-font-size:32px;
+font-size:35px;
 color:gold;
-font-weight:bold;
+margin:20px;
 }
 .btn{
 display:inline-block;
+padding:12px 25px;
+margin:10px;
 background:gold;
-color:#000;
-padding:15px 30px;
+color:black;
 text-decoration:none;
 border-radius:8px;
 font-weight:bold;
-margin:10px;
+}
+.products{
+display:flex;
+justify-content:center;
+padding:30px;
+}
+.card{
+background:#222;
+padding:20px;
+border-radius:10px;
+width:300px;
+text-align:center;
+}
+.card img{
+width:100%;
+border-radius:10px;
 }
 footer{
 background:#000;
+text-align:center;
 padding:20px;
 margin-top:30px;
 }
 </style>
+
 </head>
 <body>
 
 <header>
-<div class="logo">A</div>
-<h1>Anvitha Clothing</h1>
-<p>Premium Men's Polo T-Shirts</p>
+<div class="logo">A Anvitha Clothing</div>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">Products</a>
+<a href="#">Contact</a>
+</nav>
+
 </header>
 
-<img src="tshirt.jpg" alt="T-Shirt">
-<h2 class="price">₹199 Only</h2>
-<p>13+ Colors Available</p>
-<p>Sizes: M | L | XL | XXL</p>
+<section class="hero">
 
-<a class="btn" href="https://razorpay.me/@ravirajkumar170">Pay Now</a>
+<img src="tshirt.jpg">
+
+<h1>Premium Polo T-Shirts</h1>
+
+<div class="price">₹199 Only</div>
 
 <a class="btn" href="https://wa.me/919442557011">WhatsApp Order</a>
 
+<a class="btn" href="https://razorpay.me/@ravirajkumar170">Pay Now</a>
+
+</section>
+
+<section class="products">
+
+<div class="card">
+
+<img src="tshirt.jpg">
+
+<h2>Polo T-Shirt</h2>
+
+<p>13+ Colors Available</p>
+
+<h3>₹199</h3>
+
+<a class="btn" href="https://razorpay.me/@ravirajkumar170">Buy Now</a>
+
+</div>
+
+</section>
+
 <footer>
-<p>WhatsApp: 9442557011</p>
-<p>Delivery: 5–7 Days Across India</p>
-  <section style="padding:40px;background:#1a1a1a;">
-<h2 style="color:gold;">Our Products</h2>
 
-<img src="tshirt.jpg" style="width:250px;border-radius:10px;">
-<h3>Premium Polo T-Shirt</h3>
-<p>₹199</p>
+<h3>Anvitha Clothing</h3>
 
-<a href="https://wa.me/919442557011" style="background:gold;color:black;padding:12px 25px;text-decoration:none;border-radius:8px;">
-Order on WhatsApp
-</a>
+<p>Delivery : 5-7 Days Across India</p>
 
-<a href="https://razorpay.me/@ravirajkumar170" style="background:#fff;color:#000;padding:12px 25px;text-decoration:none;border-radius:8px;margin-left:10px;">
-Buy Now
-</a>
-  </section>
+<p>WhatsApp : 9442557011</p>
+
 </footer>
 
 </body>
